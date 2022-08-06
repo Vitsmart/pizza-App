@@ -1,6 +1,6 @@
 import React from "react";
-import classes from './Burger.css';
-import Burgeringredient from "./BurgerIngredients/BurgerIngredient.css";
+import classes from './burger.css';
+import Burgeringredient from "./BurgerIngredients/BurgerIngredient.js";
 
 const burger = () => {
 return (
@@ -9,7 +9,7 @@ return (
         <Burgeringredient type="cheese" />
         <Burgeringredient type="meat" />
         <Burgeringredient type="bread-bottom" />
-
+   
     </div>
 )
 };
