@@ -1,7 +1,9 @@
 import Navigation from "./Navigation";
 import hero from './images/hero.png'
 import user2 from './images/user-2.jpg'
-import digital from './images/digital.jpg'
+import digitalimage from './images/digital.jpg'
+import growimage from './images/grow.jpg'
+import cardimage from './images/card.jpg'
 
 
 const Main = () => {
@@ -28,35 +30,75 @@ const Main = () => {
   
   </main>
   
-  
-   <section className="section" id="section--1">
+  <div>
+  <section className="section" id="section--1">
     <div className="section__title">
       <h2 className="section__description">Features</h2>
       <h3 className="section__header">
         Everything you need in a modern bank and more.
       </h3>
-    </div> 
+    </div>
 
-     <div className="features">
+    <div className="features">
       <img
-        src={digital}
+        src={digitalimage}
+        data-src="images/digital.jpg"
         alt="Computer"
         className="features__img"
       />
+       <div className="features__feature">
+       
+        
+        <h5 className="features__header">100% digital bank</h5>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+          sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+          debitis ducimus.
+        </p>
       </div>
-   </section>
 
-    <section className="section" id="section3">
-    <div className="section__title section__title--testimonials">
-      <h2 className="section__description">Not sure yet? Read what users are saying</h2>
-      <h3 className="section__header">
-        Millions of people are already making their lives simpler with us.
-      </h3>
+      <div className="features__feature">
+       
+        <h5 className="features__header">Watch your money grow</h5>
+        <p>
+          Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+          inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+          quibusdam!
+        </p>
+      </div>
+      <img
+        src={growimage}
+        data-src="images/grow.jpg"
+        alt="Plant"
+        className="features__img"
+      />
+
+      <img
+        src={cardimage}
+        data-src="images/card.jpg"
+        alt="Credit card"
+        className="features__img"
+      />
+      <div className="features__feature">
+        
+        <h5 className="features__header">Free debit card included</h5>
+        <p>
+          Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+          eveniet consequatur odit quam quos possimus assumenda dicta fuga
+          inventore ab.
+        </p>
+      </div>
     </div>
-    </section>
-
+  </section>
+</div>
+<div class="section__title section__title--testimonials">
+          <h2 class="section__description">Not sure yet?</h2>
+          <h3 class="section__header">
+            Millions of Bankists are already making their lifes simpler.
+          </h3>
+        </div>
     
-    <div className="slider">
+    <div className="wrapper__1">
       
       <div className="slide slide--2">
         <div className="testimonial">

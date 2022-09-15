@@ -4,13 +4,16 @@ import "@reach/dialog/styles.css";
 
 const Operations = (props) => {
 
-  const [showDialog, setShowDialog] = useState(false);
-const openTab1 = () => setShowDialog(true);
-const closeTab1 = () => setShowDialog(false);
-const openTab2 = () => setShowDialog(true);
-const closeTab2 = () => setShowDialog(false);
-const openTab3 = () => setShowDialog(true);
-const closeTab3 = () => setShowDialog(false);
+  const [showtab1, setShowTab1] = useState(false);
+  const [showtab2, setShowTab2] = useState(false);
+  const [showtab3, setShowTab3] = useState(false);
+const openTab1 = () => setShowTab1(true);
+const closeTab1 = () => setShowTab1(false);
+
+const openTab2 = () => setShowTab2(true);
+const closeTab2 = () => setShowTab2(false);
+const openTab3 = () => setShowTab3(true);
+const closeTab3 = () => setShowTab3(false);
 
 // const openTab1 = () => {
 //   const dialog = document.getElementById("tabDialog_1");
@@ -44,7 +47,7 @@ const closeTab3 = () => setShowDialog(false);
           <span>01</span>Instant Transfers
         </button>
 
-      <Dialog style={{color: "white"}} isOpen={showDialog} onDismiss={closeTab1} className="operations__Dialog">
+      <Dialog aria-labelledby="content--1" isOpen={showtab1} onDismiss={closeTab1} className="modal__dialog">
       <div
         className="operations__content--1"
       >
@@ -57,15 +60,15 @@ const closeTab3 = () => setShowDialog(false);
           ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </p>
-       <span aria-hidden className="formDialog__closeBtn" onClick={closeTab1}>x</span>
+       <span className="formDialog__closeBtn" onClick={closeTab1}>x</span>
         </div>
         </Dialog>
 
-        <button className="btn operations__tab operations__tab--2" data-tab="2" onClick={openTab2}>
+        <button className="btn operations__tab operations__tab--2" onClick={openTab2}>
           <span>02</span>Instant Loans
         </button>
 
-<Dialog style={{color: "white"}} isOpen={showDialog} onDismiss={closeTab2} className="operations__Dialog">
+<Dialog aria-labelledby="content--2" isOpen={showtab2} onDismiss={closeTab2} className="modal__dialog">
   <div className="operations__content--2">
        
        <h5 className="operations__header">
@@ -77,19 +80,19 @@ const closeTab3 = () => setShowDialog(false);
          cupidatat non proident, sunt in culpa qui officia deserunt mollit
          anim id est laborum.
        </p>
-       <span aria-hidden className="formDialog__closeBtn" onClick={closeTab2}>x</span>
+       <span className="formDialog__closeBtn" onClick={closeTab2}>x</span>
 </div>
 </Dialog>
 
 
 
-<button className="btn operations__tab--3" data-tab="3" onClick={openTab3}>
+<button className="btn operations__tab--3" onClick={openTab3}>
           <span>03</span>Instant Closing
         </button>
       
-        <Dialog style={{color: "white"}} isOpen={showDialog} onDismiss={closeTab3} className="operations__Dialog">
+        <Dialog aria-labelledby="content--3" isOpen={showtab3} onDismiss={closeTab3} className="modal__dialog">
 <div>
-      <div className="operations__content operations__content--3">
+      <div className="operations__content--3">
        
         <h5 className="operations__header">
           No longer need your account? No problem! Close it instantly.
@@ -100,7 +103,7 @@ const closeTab3 = () => setShowDialog(false);
           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
           ea commodo consequat.
         </p>
-        <span aria-hidden className="formDialog__closeBtn" onClick={closeTab3}>x</span>
+        <span className="formDialog__closeBtn" onClick={closeTab3}>x</span>
        </div>
       </div>
       </Dialog>

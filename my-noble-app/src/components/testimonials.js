@@ -18,7 +18,7 @@ const Testimonials = () => {
           </h3>
         </div>
     
-        <div class="slider">
+        <div class="wrapper">
           
           <div class="slide slide--1">
             <div class="testimonial">

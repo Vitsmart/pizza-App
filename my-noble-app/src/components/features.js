@@ -28,11 +28,7 @@ const Features = () => {
         className="features__img"
       />
        <div className="features__feature">
-        {/* <div classNameName="features__icon">
-          <svg>
-            <use href="images/icons.svg#icon-monitor"></use>
-          </svg>
-        </div> */} 
+       
         
         <h5 className="features__header">100% digital bank</h5>
         <p>
@@ -43,11 +39,7 @@ const Features = () => {
       </div>
 
       <div className="features__feature">
-        {/* <div className="features__icon">
-          <svg>
-            <use xlink:href="images/icons.svg#icon-trending-up"></use>
-          </svg>
-        </div> */}
+       
         <h5 className="features__header">Watch your money grow</h5>
         <p>
           Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
@@ -69,11 +61,7 @@ const Features = () => {
         className="features__img"
       />
       <div className="features__feature">
-        {/* <div className="features__icon">
-          <svg>
-            <use xlink:href="images/icons.svg#icon-credit-card"></use>
-          </svg>
-        </div> */}
+        
         <h5 className="features__header">Free debit card included</h5>
         <p>
           Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
