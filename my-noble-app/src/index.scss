@@ -102,7 +102,7 @@ body {
   transition: transform 1s, opacity 1s;
 }
 
-.section--hidden {
+.section--hidde {
   opacity: 0;
   transform: translateY(8rem);
 }
@@ -281,15 +281,34 @@ h4 {
 /* OPERATIONS */
 .operations {
   max-width: 100rem;
-  margin: 12rem auto 0 auto;
+  margin: 10rem auto 0 auto;
 
   background-color: #fff;
 }
 
-.operations__tab-container {
+.operations__Dialog {
   display: flex;
   justify-content: center;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+  transform: translateY(-50%);
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  align-items: center;
+  font-weight: 500;
+  height: 70vh;
+  margin: 10rem auto;
+  margin-top: 5rem;
 }
+
+.operations__Dialog::backdrop {
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
 
 .operations__tab {
   margin-right: 2.5rem;
