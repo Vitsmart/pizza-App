@@ -1,4 +1,4 @@
-
+import handshake from './images/handshake1.jpg'
 
 const SignUp = (props) => {
   
@@ -25,8 +25,15 @@ return (
         its time to shoot for the stars - The best day to join is today!
       </h3>
     </div>
-    <button className="btn" onClick={handleModal}>Open your free account today!</button>
+    <button className="btn" onClick={handleModal}>Register today!</button>
   </section>
+  <div>
+    <img
+    src={handshake}
+    className="section--img"
+    alt="welcome"
+    />
+  </div>
    
 
   <dialog id='formDialog' className='formDialog'>

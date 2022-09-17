@@ -14,17 +14,17 @@ const Navigation = () => {
             />
             <ul className="nav__links">
               <li className="nav__item">
-                <Link className="nav__link" to="/features">Features</Link>
+                <Link className="nav__link" to="/Projects">Projects</Link>
               </li>
               <li className="nav__item">
-                <Link className="nav__link" to="/operations">Operations</Link>
+                <Link className="nav__link" to="/Community-Life">Community Life</Link>
               </li>
               <li className="nav__item">
                 <Link className="nav__link" to="/testimonials">Testimonials</Link>
               </li>
               <li className="nav__item">
                 <Link className="nav__link nav__link--btn btn--show-modal" to="/sign-up"
-                  >Open account</Link>
+                  >Register to Join</Link>
                 
               </li>
             </ul>

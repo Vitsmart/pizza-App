@@ -1,9 +1,10 @@
 import Navigation from "./Navigation";
-import hero from './images/hero.png'
+import heros from './images/pp4.jpg'
+import programmers from './images/office1.jpg'
 import user2 from './images/user-2.jpg'
-import digitalimage from './images/digital.jpg'
-import growimage from './images/grow.jpg'
-import cardimage from './images/card.jpg'
+import digitalimage from './images/p1.jpg'
+import growimage from './images/hands.jpg'
+import cardimage from './images/welcome hands.jpg'
 
 
 const Main = () => {
@@ -13,18 +14,34 @@ const Main = () => {
     <Navigation />;
     <main className="main">
     <div className="main__title">
-      <h1>
+      <h1>Next Age</h1>
+      <h2>
         Where
-        <span className="highlight"> services </span>
-         exceed <br />
-        <span className="highlight"> expectations </span>
-      </h1>
-      <h4>A wonderful banking experience for a simpler life. </h4>
-      <button className="btn--text btn--scroll-to">Learn more </button>
+        <span className="highlight"> Dreams </span>
+         are <br />
+        <span className="highlight"> Geared </span> to Greatness
+      </h2>
+      
+      <h4>it's time to go beyond! join Next Age - A muiltifunctional community of great minds</h4>
+      <p>
+        <ul>
+          <li>Learn</li>
+          <li>Grow</li>
+          <li>Impact</li>
+        </ul>
+      </p>
+      </div>
+      <div className="aside">
+      {/*<button className="btn--text btn--scroll-to">Learn more </button>*/}
       <img
-        src={hero}
+        src={heros}
         className="main__img"
-        alt="Noble bank items"
+        alt="main img"
+      />
+      <img 
+      src={programmers}
+      className="main__img2"
+      alt="programmers"
       />
     </div>
   
@@ -35,7 +52,7 @@ const Main = () => {
     <div className="section__title">
       <h2 className="section__description">Features</h2>
       <h3 className="section__header">
-        Everything you need in a modern bank and more.
+        Everything you need in a Smart world and more.
       </h3>
     </div>
 
@@ -49,7 +66,7 @@ const Main = () => {
        <div className="features__feature">
        
         
-        <h5 className="features__header">100% digital bank</h5>
+        <h5 className="features__header">100% digital community</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
           sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
@@ -59,7 +76,7 @@ const Main = () => {
 
       <div className="features__feature">
        
-        <h5 className="features__header">Watch your money grow</h5>
+        <h5 className="features__header">Watch your skills grow</h5>
         <p>
           Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
           inventore ab? Nulla incidunt eius numquam sequi iste pariatur
@@ -81,7 +98,7 @@ const Main = () => {
       />
       <div className="features__feature">
         
-        <h5 className="features__header">Free debit card included</h5>
+        <h5 className="features__header">Shared projects to take you to the Next level</h5>
         <p>
           Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
           eveniet consequatur odit quam quos possimus assumenda dicta fuga
@@ -92,9 +109,9 @@ const Main = () => {
   </section>
 </div>
 <div class="section__title section__title--testimonials">
-          <h2 class="section__description">Not sure yet?</h2>
+          <h2 class="section__description">it's time to enjoy community Life</h2>
           <h3 class="section__header">
-            Millions of Bankists are already making their lifes simpler.
+            Millions of programmers are already making their lives simpler.
           </h3>
         </div>
     
@@ -103,7 +120,7 @@ const Main = () => {
       <div className="slide slide--2">
         <div className="testimonial">
           <h5 className="testimonial__header">
-            This is my best decision ever !
+             Best decision ever - now i can fly !
           </h5>
           <blockquote className="testimonial__text">
             "Quisquam itaque deserunt ullam, quia ea repellendus provident,
@@ -152,7 +169,7 @@ const Main = () => {
         className="footer__link twitter-link"
 
         href="https://twitter.com/NobleTrust"
-        > Noble Group</a>.
+        > Next-Age Group</a>.
          Use for learning purposes only.
     </p>
   </footer>

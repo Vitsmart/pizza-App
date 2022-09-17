@@ -5,7 +5,7 @@ import cardimage from './images/card.jpg'
 
 
 
-const Features = () => {
+const Projects = () => {
    
   
 
@@ -16,7 +16,7 @@ const Features = () => {
     <div className="section__title">
       <h2 className="section__description">Features</h2>
       <h3 className="section__header">
-        Everything you need in a modern bank and more.
+        Everything you need in a smart community and more.
       </h3>
     </div>
 
@@ -74,7 +74,7 @@ const Features = () => {
 </div>
     )
 };
-export default Features;
+export default Projects;
 
 
 

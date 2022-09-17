@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dialog } from "@reach/dialog";
 import "@reach/dialog/styles.css";
 
-const Operations = (props) => {
+const Community = (props) => {
 
   const [showtab1, setShowTab1] = useState(false);
   const [showtab2, setShowTab2] = useState(false);
@@ -36,7 +36,7 @@ const closeTab3 = () => setShowTab3(false);
     <div className="section__title">
       <h2 className="section__description">Operations</h2>
       <h3 className="section__header">
-        Everything as simple as possible, but no simpler.
+        Everything as simple as possible, teams building lives.
       </h3>
     </div>
 
@@ -44,7 +44,7 @@ const closeTab3 = () => setShowTab3(false);
     <button
           className="btn operations__tab operations__tab--1"
         onClick={openTab1}>
-          <span>01</span>Instant Transfers
+          <span>01</span>Share Story/Experience
         </button>
 
       <Dialog aria-labelledby="content--1" isOpen={showtab1} onDismiss={closeTab1} className="modal__dialog">
@@ -52,7 +52,7 @@ const closeTab3 = () => setShowTab3(false);
         className="operations__content--1"
       >
           <h5 className="operations__header">
-          Transfer money to anyone, instantly! No fees, no BS.
+          Tell your stories to inspire others, share your experiences to the community
         </h5>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
@@ -65,14 +65,14 @@ const closeTab3 = () => setShowTab3(false);
         </Dialog>
 
         <button className="btn operations__tab operations__tab--2" onClick={openTab2}>
-          <span>02</span>Instant Loans
+          <span>02</span>Contribute to the community
         </button>
 
 <Dialog aria-labelledby="content--2" isOpen={showtab2} onDismiss={closeTab2} className="modal__dialog">
   <div className="operations__content--2">
        
        <h5 className="operations__header">
-         Buy a home or make your dreams come true, with instant loans.
+         want to impact lives, contribute by teaching a topic today or answering questions. 
        </h5>
        <p>
          Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -87,7 +87,7 @@ const closeTab3 = () => setShowTab3(false);
 
 
 <button className="btn operations__tab--3" onClick={openTab3}>
-          <span>03</span>Instant Closing
+          <span>03</span>Ask and learn from Questions
         </button>
       
         <Dialog aria-labelledby="content--3" isOpen={showtab3} onDismiss={closeTab3} className="modal__dialog">
@@ -95,7 +95,7 @@ const closeTab3 = () => setShowTab3(false);
       <div className="operations__content--3">
        
         <h5 className="operations__header">
-          No longer need your account? No problem! Close it instantly.
+          Need more clarifications, Ask your Questions here.
         </h5>
         <p>
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
@@ -114,4 +114,4 @@ const closeTab3 = () => setShowTab3(false);
 };
  
 
-export default Operations;
+export default Community;
