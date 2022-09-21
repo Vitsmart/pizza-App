@@ -12,9 +12,9 @@ const Testimonials = () => {
     return (
         <section class="section" id="section--3">
         <div class="section__title section__title--testimonials">
-          <h2 class="section__description">Not sure yet?</h2>
+          <h2 class="section__description">its time to step up and enjoy this amazing community Life</h2>
           <h3 class="section__header">
-            Millions of Bankists are already making their lifes simpler.
+            Millions of programmers are already making their lives simpler.
           </h3>
         </div>
     

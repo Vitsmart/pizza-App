@@ -30,7 +30,7 @@ const Projects = () => {
        <div className="features__feature">
        
         
-        <h5 className="features__header">100% digital bank</h5>
+        <h5 className="features__header">100% digital community</h5>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
           sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
@@ -40,7 +40,7 @@ const Projects = () => {
 
       <div className="features__feature">
        
-        <h5 className="features__header">Watch your money grow</h5>
+        <h5 className="features__header">Watch your skills grow</h5>
         <p>
           Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
           inventore ab? Nulla incidunt eius numquam sequi iste pariatur
@@ -62,7 +62,7 @@ const Projects = () => {
       />
       <div className="features__feature">
         
-        <h5 className="features__header">Free debit card included</h5>
+        <h5 className="features__header">Smart projects to take you to the next level</h5>
         <p>
           Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
           eveniet consequatur odit quam quos possimus assumenda dicta fuga

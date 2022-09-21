@@ -22,10 +22,10 @@ return (
     <section className="section section--sign-up">
     <div className="section__title">
       <h3 className="section__header">
-        its time to shoot for the stars - The best day to join is today!
+        its time to shoot for the stars. The best time to join is now!
       </h3>
     </div>
-    <button className="btn" onClick={handleModal}>Register today!</button>
+    <button className="buttn" onClick={handleModal}>Click to register</button>
   </section>
   <div>
     <img
@@ -41,7 +41,7 @@ return (
     <div className="formDialog__container">
       
     <h2 className="modal__header">
-      Open your bank account <br />
+      Create your account <br />
       in just <span className="highlight">5 minutes</span>
     </h2>
       
@@ -54,6 +54,8 @@ return (
       <input type="text" />
       <label>Email Address</label>
       <input type="email" />
+      <label>Create Password</label>
+      <input type="password" />
       <button className="btn">Next step &rarr;</button>
     </form>
     

@@ -4,7 +4,7 @@ import Main from './components/Main';
 import Testimonials from './components/testimonials';
 import SignUp from './components/sign-up';
 import Projects from './components/Projects';
-import Community from './components/Community-Life';
+import Community from './components/Community';
 
 function App() {
  
@@ -14,8 +14,8 @@ function App() {
    <BrowserRouter>  
     <Routes>
      <Route path='/' element={<Main />} />
-     <Route path='features' element={<Projects />} />
-     <Route path='operations' element={<Community />} />
+     <Route path='projects' element={<Projects />} />
+     <Route path='community' element={<Community />} />
      <Route path='testimonials' element={<Testimonials/>} />
      <Route path='sign-up' element={<SignUp />} />
 
